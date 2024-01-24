@@ -1,7 +1,7 @@
 version: "3.9"
 services:
-  template-dev:   # "template"を任意の名称に変更
-    container_name: template-dev    # "template"を任意の名称に変更
+  slide-show-dev:   # "slide-show"を任意の名称に変更
+    container_name: slide-show-dev    # "slide-show"を任意の名称に変更
     build:
       context: ../
       dockerfile: Dockerfile
